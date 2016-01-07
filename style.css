@@ -56,6 +56,10 @@
   color: #767676;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 .block {
   flex: 1;
   text-align: right;
