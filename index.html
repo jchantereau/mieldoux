@@ -9,7 +9,7 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.scss">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- Leave those next 4 lines if you care about users using IE8 -->
@@ -50,7 +50,12 @@
       <div class="bottom-content">
         <h1>Some Stuff</h1>
         <p>Very cool stuff, useful and smart</p>
-        <a class="btn btn-primary btn-lg">GET IT</a>
+        <form action="http://formspree.io/remiballot@ballot-flurin.com"
+            method="POST">
+          <input class="input", type="email", name="_replyto", placeholder="john@doe.com">
+          <input type="hidden" name="_cc" value="jchantereau@gmail.com" />
+          <input type="submit" value="Confirmer" class="btn btn-success">
+        </form>
       </div>
     </div>
 
