@@ -39,3 +39,16 @@
 .input {
   color: black;
 }
+
+#footer {
+  position: relative;
+  display: flex;
+  padding: 10px;
+  font-size: 15px;
+  color: #767676;
+}
+
+.block {
+  flex: 1;
+  text-align: right;
+}
