@@ -1,7 +1,7 @@
 .banner {
   color: white;
   background-size: cover !important;
-  height: 100vh;
+  height: 70vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -36,12 +36,22 @@
   justify-content: center;
 }
 
-.container img {
+.photo {
   width: 50vh;
 }
 
 .card {
   padding: 60px;
+}
+
+.string-card {
+  padding: 40px;
+}
+
+.icon {
+  height: 50px;
+  width: auto;
+  margin: 30px;
 }
 
 .input {
