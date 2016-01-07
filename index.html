@@ -73,12 +73,21 @@
       <div class="bottom-content">
         <h1>Some Stuff</h1>
         <p>Very cool stuff, useful and smart</p>
-        <a class="btn btn-primary btn-lg">GET IT</a>
+        <form action="http://formspree.io/remiballot@ballot-flurin.com"
+            method="POST">
+          <input class="input", type="email", name="_replyto", placeholder="john@doe.com">
+          <input type="hidden" name="_cc" value="jchantereau@gmail.com" />
+          <input type="submit" value="Confirmer" class="btn btn-success">
+        </form>
       </div>
     </div>
 
     <div id="footer">
       <span>© Miel Doux 2016</span>
+      <ul class='list-inline block'>
+        <li><i class="fa fa-phone"></i> 06.78.16.65.03</li>
+        <li><i class="fa fa-envelope"></i> remiballot@ballot-flurin.com</li>
+      </ul>
     </div>
 
     <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
