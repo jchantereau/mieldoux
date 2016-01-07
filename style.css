@@ -44,6 +44,14 @@
   padding: 60px;
 }
 
+.string-card {
+  padding: 40px;
+}
+
+.icon {
+  image-size: 30px;
+}
+
 .input {
   color: black;
 }
