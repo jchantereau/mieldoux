@@ -36,6 +36,14 @@
   justify-content: center;
 }
 
+.container img {
+  width: 50vh;
+}
+
+.card {
+  padding: 60px;
+}
+
 .input {
   color: black;
 }
@@ -52,3 +60,4 @@
   flex: 1;
   text-align: right;
 }
+
