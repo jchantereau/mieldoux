@@ -25,3 +25,12 @@
   letter-spacing: 1px;
   font-size: 16px;
 }
+
+.bottom {
+  color: white;
+  background-size: cover !important;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
