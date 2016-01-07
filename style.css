@@ -6,6 +6,7 @@
   align-items: center;
   justify-content: center;
 }
+
 .banner-content h1 {
   font-weight: bold;
   text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
@@ -33,4 +34,21 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.input {
+  color: black;
+}
+
+#footer {
+  position: relative;
+  display: flex;
+  padding: 10px;
+  font-size: 15px;
+  color: #767676;
+}
+
+.block {
+  flex: 1;
+  text-align: right;
 }
