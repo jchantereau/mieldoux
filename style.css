@@ -34,3 +34,12 @@
   align-items: center;
   justify-content: center;
 }
+
+.container img {
+  width: 50vh;
+}
+
+.card {
+  padding: 60px;
+}
+
