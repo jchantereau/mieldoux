@@ -37,7 +37,7 @@
 }
 
 .photo {
-  width: 50vh;
+  width: 70vh;
 }
 
 .card {
@@ -49,9 +49,15 @@
 }
 
 .icon {
-  height: 50px;
+  height: 70px;
   width: auto;
   margin: 30px;
+}
+
+#honeyjar {
+  height: 110px;
+  width: auto;
+  margin: 0px 30px 30px 30px;
 }
 
 .input {
@@ -74,6 +80,9 @@ a:hover {
   flex: 1;
   text-align: right;
 }
+
+
+
 
 /* ---------- SCROLL --------------- */
 
