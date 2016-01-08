@@ -75,7 +75,28 @@ a:hover {
   text-align: right;
 }
 
-/* ---------- SCROLL --------------- */
+/* ---------- SCROLL ARROW --------------- */
 
 
-/* ---------- SCROLL --------------- */
+.arrow {
+  padding: 20px;
+  box-shadow: 10px -10px 0 -4px #FFF395 inset;
+  position: relative;
+  display: inline-block;
+  transform: rotate(-45deg);
+  margin-bottom: 0;
+}
+
+.header {
+  height:calc(100% - 3em); /* subtract an amount of space for your arrow element */
+  background-color:#333;
+  width:100%;
+}
+
+.main {
+  width:100%;
+  position:relative;
+  background-color:#fff;
+}
+
+/* ---------- SCROLL ARROW --------------- */
